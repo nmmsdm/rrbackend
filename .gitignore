@@ -1,0 +1,35 @@
+# Ignore environment files
+.env*
+!env.example  # Allow a template for environment variables
+
+# Ignore database files
+*.sqlite3
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Ignore logs and temporary files
+logs/
+*.log
+*.out
+*.pid
+*.swp
+
+# Ignore compiled files
+*.egg-info/
+dist/
+build/
+*.so
+
+# Ignore virtual environments
+venv/
+.env/
+*.venv
+Pipfile.lock
+
+# Ignore IDE and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db

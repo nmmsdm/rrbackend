@@ -110,6 +110,8 @@ LOGGING = {
     },
 }
 
+AUTH_USER_MODEL = 'authentication.CustomUser'
+
 ROOT_URLCONF = 'rrbackend.urls'
 
 TEMPLATES = [
